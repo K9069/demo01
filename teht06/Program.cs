@@ -10,24 +10,16 @@ namespace teht06
     {
         static void Main(string[] args)
         {
-            //Ask distance
-            int distance;
-            Console.WriteLine("Give your distance > ");
+            double kulutus = 0.0702, bensa = 1.595, matka, kulut, euro;
+            //Ask distance       
+            Console.WriteLine("Anna matka kilometreinä > ");
             string line = Console.ReadLine();
-            distance = int.Parse(line);
-            //Determinate age
-            if (age < 18)
-            {
-                Console.WriteLine("Alaikäinen");
-            }
-            else if (age >= 18 && age <= 65)
-            {
-                Console.WriteLine("Aikuinen");
-            }
-            else
-            {
-                Console.WriteLine("Seniori");
-            }
+            matka = int.Parse(line);
+
+            kulut = matka * kulutus;
+            euro = kulut * bensa;
+
+            Console.WriteLine("Bensaa kuluu " + kulut + "litraa, kustannus " + euro + " euroa.");
             Console.ReadLine();
         }
     }
