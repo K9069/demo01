@@ -10,6 +10,6 @@ namespace demo03
     {
         static void Main(string[] args)asd
         {
-        }
+        }asd
     }
 }
