@@ -8,7 +8,7 @@ namespace demo03
 {
     class Program
     {
-        static void Main(string[] args)asd
+        static void Main(string[] args)
         {
         }
     }
