@@ -4,12 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace demo03
+namespace teht01
 {
     class Program
     {
-        static void Main(string[] args)asd
+        static void Main(string[] args)
         {
-        }asd
+        }
     }
 }
